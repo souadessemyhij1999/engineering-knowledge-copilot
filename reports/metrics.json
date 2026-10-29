@@ -1,0 +1,144 @@
+{
+  "retrieval": {
+    "dense": {
+      "hit@1": 0.6471,
+      "hit@3": 0.8151,
+      "hit@5": 0.8824,
+      "hit@10": 0.9832,
+      "mrr": 0.7504,
+      "ndcg@10": 0.8046,
+      "latency_ms_p50": 4.6
+    },
+    "bm25": {
+      "hit@1": 0.8655,
+      "hit@3": 0.9412,
+      "hit@5": 0.9748,
+      "hit@10": 0.9832,
+      "mrr": 0.9124,
+      "ndcg@10": 0.9284,
+      "latency_ms_p50": 5.6
+    },
+    "hybrid (RRF)": {
+      "hit@1": 0.7059,
+      "hit@3": 0.9664,
+      "hit@5": 0.9832,
+      "hit@10": 1.0,
+      "mrr": 0.8305,
+      "ndcg@10": 0.8745,
+      "latency_ms_p50": 10.6
+    },
+    "hybrid + rerank": {
+      "hit@1": 0.9244,
+      "hit@3": 0.9916,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9573,
+      "ndcg@10": 0.9671,
+      "latency_ms_p50": 19.9
+    },
+    "_version_trap_top1_wrong": {
+      "filter on": 1,
+      "filter off": 2,
+      "n": 8
+    },
+    "_by_type_hybrid_rerank": {
+      "cross_doc": {
+        "n": 4,
+        "hit@1": 0.75,
+        "hit@5": 1.0
+      },
+      "factual": {
+        "n": 54,
+        "hit@1": 0.963,
+        "hit@5": 1.0
+      },
+      "numeric": {
+        "n": 12,
+        "hit@1": 1.0,
+        "hit@5": 1.0
+      },
+      "procedural": {
+        "n": 12,
+        "hit@1": 0.917,
+        "hit@5": 1.0
+      },
+      "table": {
+        "n": 33,
+        "hit@1": 0.879,
+        "hit@5": 1.0
+      },
+      "version": {
+        "n": 4,
+        "hit@1": 0.75,
+        "hit@5": 1.0
+      }
+    }
+  },
+  "access_leaks_in_retrieval": 0,
+  "answers_extractive": {
+    "n_questions": 140,
+    "n_answerable": 119,
+    "n_unanswerable": 21,
+    "answer_rate (answerable)": 0.8824,
+    "key_fact_accuracy (answered)": 0.9619,
+    "key_fact_accuracy (all answerable)": 0.8487,
+    "citation_precision": 0.9508,
+    "guard_pass_rate": 1.0,
+    "superseded_value_in_answer": 0,
+    "abstention_rate (restricted)": 1.0,
+    "abstention_rate (unanswerable)": 1.0,
+    "restricted_doc_in_sources": 0,
+    "llm_answers_rejected_by_guard": 0,
+    "latency_ms_p50": 21.5,
+    "latency_ms_p95": 37.0,
+    "by_type": {
+      "cross_doc": {
+        "n": 4,
+        "fact_accuracy": 1.0,
+        "abstained": 0
+      },
+      "factual": {
+        "n": 54,
+        "fact_accuracy": 0.796,
+        "abstained": 8
+      },
+      "numeric": {
+        "n": 12,
+        "fact_accuracy": 0.833,
+        "abstained": 2
+      },
+      "procedural": {
+        "n": 12,
+        "fact_accuracy": 0.833,
+        "abstained": 1
+      },
+      "restricted": {
+        "n": 10,
+        "abstention_rate": 1.0
+      },
+      "table": {
+        "n": 33,
+        "fact_accuracy": 0.939,
+        "abstained": 2
+      },
+      "unanswerable": {
+        "n": 11,
+        "abstention_rate": 1.0
+      },
+      "version": {
+        "n": 4,
+        "fact_accuracy": 0.75,
+        "abstained": 1
+      }
+    }
+  },
+  "corpus": {
+    "documents": 23,
+    "chunks": 138
+  },
+  "settings": {
+    "min_score": 0.8,
+    "top_k": 5
+  },
+  "runtime_s": 9.6
+}

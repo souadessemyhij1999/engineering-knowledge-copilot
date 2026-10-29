@@ -1,0 +1,123 @@
+{
+  "retrieval": {
+    "dense": {
+      "hit@1": 0.7419,
+      "hit@3": 0.871,
+      "hit@5": 0.871,
+      "hit@10": 0.9355,
+      "mrr": 0.7997,
+      "ndcg@10": 0.8323,
+      "latency_ms_p50": 5.5
+    },
+    "bm25": {
+      "hit@1": 0.9355,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9677,
+      "ndcg@10": 0.9699,
+      "latency_ms_p50": 6.8
+    },
+    "hybrid (RRF)": {
+      "hit@1": 0.8065,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.8925,
+      "ndcg@10": 0.9185,
+      "latency_ms_p50": 11.1
+    },
+    "hybrid + rerank": {
+      "hit@1": 0.9677,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9839,
+      "ndcg@10": 0.9819,
+      "latency_ms_p50": 22.2
+    },
+    "_version_trap_top1_wrong": {
+      "filter on": 0,
+      "filter off": 0,
+      "n": 1
+    },
+    "_by_type_hybrid_rerank": {
+      "factual": {
+        "n": 19,
+        "hit@1": 0.947,
+        "hit@5": 1.0
+      },
+      "procedural": {
+        "n": 1,
+        "hit@1": 1.0,
+        "hit@5": 1.0
+      },
+      "table": {
+        "n": 10,
+        "hit@1": 1.0,
+        "hit@5": 1.0
+      },
+      "version": {
+        "n": 1,
+        "hit@1": 1.0,
+        "hit@5": 1.0
+      }
+    }
+  },
+  "access_leaks_in_retrieval": 0,
+  "answers_extractive": {
+    "n_questions": 48,
+    "n_answerable": 31,
+    "n_unanswerable": 17,
+    "answer_rate (answerable)": 0.9355,
+    "key_fact_accuracy (answered)": 1.0,
+    "key_fact_accuracy (all answerable)": 0.9355,
+    "citation_precision": 0.9483,
+    "guard_pass_rate": 1.0,
+    "superseded_value_in_answer": 0,
+    "abstention_rate (restricted)": 1.0,
+    "abstention_rate (unanswerable)": 0.9167,
+    "restricted_doc_in_sources": 0,
+    "latency_ms_p50": 22.1,
+    "latency_ms_p95": 37.5,
+    "by_type": {
+      "factual": {
+        "n": 19,
+        "fact_accuracy": 0.895,
+        "abstained": 2
+      },
+      "procedural": {
+        "n": 1,
+        "fact_accuracy": 1.0,
+        "abstained": 0
+      },
+      "restricted": {
+        "n": 5,
+        "abstention_rate": 1.0
+      },
+      "table": {
+        "n": 10,
+        "fact_accuracy": 1.0,
+        "abstained": 0
+      },
+      "unanswerable": {
+        "n": 12,
+        "abstention_rate": 0.917
+      },
+      "version": {
+        "n": 1,
+        "fact_accuracy": 1.0,
+        "abstained": 0
+      }
+    }
+  },
+  "corpus": {
+    "documents": 23,
+    "chunks": 138
+  },
+  "settings": {
+    "min_score": 0.8,
+    "top_k": 5
+  },
+  "runtime_s": 3.5
+}

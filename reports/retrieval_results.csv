@@ -1,0 +1,477 @@
+config,id,type,hit@1,hit@3,hit@5,hit@10,mrr,ndcg@10
+dense,t001,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t002,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t003,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t004,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t005,numeric,0.0,0.0,1.0,1.0,0.2,0.3869
+dense,t006,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t007,numeric,0.0,1.0,1.0,1.0,0.5,0.6509
+dense,t008,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t009,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t010,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t011,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t012,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t013,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t014,numeric,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t015,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t016,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t017,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t018,table,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t019,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t020,table,0.0,0.0,1.0,1.0,0.25,0.4307
+dense,t021,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t022,procedural,0.0,0.0,1.0,1.0,0.2,0.3869
+dense,t023,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t024,table,0.0,0.0,0.0,1.0,0.1429,0.3333
+dense,t025,table,0.0,0.0,0.0,1.0,0.1667,0.3562
+dense,t026,table,0.0,0.0,0.0,1.0,0.1429,0.3333
+dense,t027,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t028,procedural,0.0,0.0,1.0,1.0,0.25,0.4307
+dense,t029,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t030,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t031,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t032,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t033,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t034,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t035,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t036,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t037,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t038,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t039,procedural,0.0,0.0,0.0,1.0,0.1667,0.3562
+dense,t040,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t041,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t042,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t043,procedural,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t044,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t045,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t046,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t047,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t048,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t049,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t050,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t051,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t052,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t053,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t054,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t055,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t056,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t057,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t058,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t059,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t060,table,0.0,0.0,0.0,1.0,0.1429,0.3333
+dense,t061,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t062,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t063,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t064,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t065,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t066,table,0.0,0.0,0.0,1.0,0.1667,0.3562
+dense,t067,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t068,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t069,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t070,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t071,table,0.0,0.0,0.0,1.0,0.125,0.3155
+dense,t072,table,0.0,0.0,0.0,0.0,0.0,0.0
+dense,t073,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t074,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t075,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t076,table,0.0,0.0,0.0,1.0,0.1667,0.3562
+dense,t077,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t078,table,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t079,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t080,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t081,table,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t082,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t083,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t084,table,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t085,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t086,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t087,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t088,factual,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t089,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t090,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t091,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t092,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t093,factual,0.0,0.0,1.0,1.0,0.2,0.3869
+dense,t094,factual,0.0,0.0,0.0,1.0,0.1667,0.3562
+dense,t095,factual,0.0,0.0,0.0,1.0,0.1111,0.301
+dense,t096,factual,0.0,0.0,1.0,1.0,0.2,0.3869
+dense,t097,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t098,factual,0.0,0.0,1.0,1.0,0.2,0.3869
+dense,t099,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t100,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t101,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t102,factual,0.0,0.0,0.0,0.0,0.0,0.0
+dense,t103,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t104,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t105,table,0.0,1.0,1.0,1.0,0.5,0.6309
+dense,t106,table,0.0,0.0,0.0,1.0,0.1111,0.301
+dense,t107,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t108,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t109,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t110,factual,0.0,0.0,0.0,1.0,0.1,0.2891
+dense,t111,factual,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t112,cross_doc,0.0,0.0,1.0,1.0,0.25,0.4307
+dense,t113,cross_doc,0.0,1.0,1.0,1.0,0.3333,0.5438
+dense,t114,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t115,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t116,version,1.0,1.0,1.0,1.0,1.0,1.0
+dense,t117,version,0.0,1.0,1.0,1.0,0.3333,0.5
+dense,t118,version,1.0,1.0,1.0,1.0,1.0,0.9197
+dense,t119,version,1.0,1.0,1.0,1.0,1.0,0.8503
+bm25,t001,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t002,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t003,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t004,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t005,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t006,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t007,numeric,0.0,1.0,1.0,1.0,0.5,0.6934
+bm25,t008,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t009,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t010,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t011,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t012,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t013,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t014,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t015,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t016,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t017,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t018,table,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t019,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t020,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t021,table,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t022,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t023,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t024,table,0.0,0.0,1.0,1.0,0.25,0.4307
+bm25,t025,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t026,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t027,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t028,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t029,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t030,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t031,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t032,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t033,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t034,table,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t035,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t036,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t037,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t038,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t039,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t040,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t041,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t042,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t043,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t044,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t045,factual,0.0,0.0,0.0,0.0,0.0,0.0
+bm25,t046,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t047,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t048,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t049,factual,0.0,0.0,1.0,1.0,0.25,0.4307
+bm25,t050,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t051,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t052,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t053,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t054,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t055,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t056,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t057,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t058,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t059,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t060,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t061,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t062,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t063,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t064,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t065,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t066,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t067,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t068,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t069,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t070,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t071,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t072,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t073,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t074,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t075,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t076,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t077,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t078,table,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t079,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t080,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t081,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t082,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t083,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t084,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t085,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t086,factual,0.0,0.0,1.0,1.0,0.25,0.4307
+bm25,t087,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t088,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t089,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t090,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t091,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t092,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t093,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t094,factual,0.0,0.0,0.0,0.0,0.0,0.0
+bm25,t095,factual,0.0,0.0,0.0,1.0,0.125,0.3155
+bm25,t096,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t097,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t098,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t099,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t100,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t101,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t102,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t103,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t104,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t105,table,0.0,1.0,1.0,1.0,0.5,0.6309
+bm25,t106,table,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t107,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t108,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t109,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t110,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t111,factual,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t112,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t113,cross_doc,0.0,1.0,1.0,1.0,0.5,0.6053
+bm25,t114,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t115,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t116,version,1.0,1.0,1.0,1.0,1.0,1.0
+bm25,t117,version,0.0,0.0,1.0,1.0,0.2,0.3869
+bm25,t118,version,1.0,1.0,1.0,1.0,1.0,0.8503
+bm25,t119,version,1.0,1.0,1.0,1.0,1.0,0.9197
+hybrid (RRF),t001,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t002,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t003,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t004,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t005,numeric,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t006,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t007,numeric,0.0,1.0,1.0,1.0,0.3333,0.5706
+hybrid (RRF),t008,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t009,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t010,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t011,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t012,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t013,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t014,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t015,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t016,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t017,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t018,table,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t019,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t020,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t021,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t022,procedural,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t023,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t024,table,0.0,0.0,1.0,1.0,0.2,0.3869
+hybrid (RRF),t025,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t026,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t027,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t028,procedural,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t029,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t030,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t031,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t032,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t033,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t034,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t035,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t036,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t037,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t038,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t039,procedural,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t040,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t041,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t042,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t043,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t044,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t045,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t046,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t047,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t048,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t049,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t050,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t051,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t052,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t053,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t054,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t055,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t056,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t057,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t058,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t059,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t060,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t061,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t062,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t063,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t064,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t065,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t066,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t067,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t068,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t069,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t070,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t071,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t072,table,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t073,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t074,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t075,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t076,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t077,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t078,table,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t079,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t080,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t081,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t082,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t083,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t084,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t085,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t086,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t087,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t088,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t089,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t090,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t091,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t092,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t093,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t094,factual,0.0,0.0,0.0,1.0,0.1111,0.301
+hybrid (RRF),t095,factual,0.0,0.0,0.0,1.0,0.1,0.2891
+hybrid (RRF),t096,factual,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t097,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t098,factual,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid (RRF),t099,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t100,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t101,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t102,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t103,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t104,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t105,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t106,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t107,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t108,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t109,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t110,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t111,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t112,cross_doc,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid (RRF),t113,cross_doc,0.0,1.0,1.0,1.0,0.3333,0.5706
+hybrid (RRF),t114,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t115,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t116,version,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t117,version,0.0,0.0,1.0,1.0,0.25,0.4307
+hybrid (RRF),t118,version,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid (RRF),t119,version,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t001,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t002,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t003,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t004,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t005,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t006,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t007,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t008,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t009,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t010,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t011,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t012,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t013,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t014,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t015,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t016,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t017,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t018,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t019,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t020,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t021,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t022,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t023,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t024,table,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid + rerank,t025,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t026,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t027,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t028,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t029,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t030,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t031,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t032,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t033,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t034,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t035,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t036,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t037,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t038,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t039,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t040,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t041,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t042,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t043,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t044,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t045,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t046,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t047,procedural,0.0,0.0,1.0,1.0,0.25,0.4307
+hybrid + rerank,t048,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t049,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t050,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t051,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t052,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t053,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t054,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t055,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t056,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t057,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t058,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t059,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t060,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t061,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t062,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t063,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t064,numeric,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t065,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t066,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t067,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t068,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t069,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t070,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t071,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t072,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t073,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t074,procedural,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t075,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t076,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t077,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t078,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid + rerank,t079,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t080,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t081,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t082,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t083,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t084,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid + rerank,t085,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t086,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t087,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t088,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t089,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t090,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t091,factual,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid + rerank,t092,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t093,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t094,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t095,factual,0.0,1.0,1.0,1.0,0.3333,0.5
+hybrid + rerank,t096,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t097,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t098,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t099,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t100,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t101,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t102,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t103,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t104,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t105,table,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid + rerank,t106,table,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t107,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t108,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t109,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t110,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t111,factual,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t112,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t113,cross_doc,0.0,1.0,1.0,1.0,0.5,0.5803
+hybrid + rerank,t114,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t115,cross_doc,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t116,version,1.0,1.0,1.0,1.0,1.0,1.0
+hybrid + rerank,t117,version,0.0,1.0,1.0,1.0,0.5,0.6309
+hybrid + rerank,t118,version,1.0,1.0,1.0,1.0,1.0,0.9197
+hybrid + rerank,t119,version,1.0,1.0,1.0,1.0,1.0,1.0

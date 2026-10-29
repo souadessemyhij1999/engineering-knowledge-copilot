@@ -1,0 +1,140 @@
+{"id": "t001", "role": "operator", "type": "table", "question": "What torque do I use for the M10 flange bolts between gearbox housing and motor housing?", "gold": ["WI-ASM-014:4"], "facts": ["45 Nm"], "forbidden": ["40 Nm"]}
+{"id": "t002", "role": "operator", "type": "table", "question": "Tightening torque for the M8 housing cover bolts?", "gold": ["WI-ASM-014:4"], "facts": ["25 Nm"]}
+{"id": "t003", "role": "operator", "type": "table", "question": "What is the torque for the oil drain plug?", "gold": ["WI-ASM-014:4"], "facts": ["30 Nm"]}
+{"id": "t004", "role": "operator", "type": "table", "question": "How tight should the speed sensor bracket screw be?", "gold": ["WI-ASM-014:4"], "facts": ["9 Nm"]}
+{"id": "t005", "role": "operator", "type": "numeric", "question": "How wide must the sealant bead on the gearbox flange be?", "gold": ["WI-ASM-014:5"], "facts": ["3.0 mm"], "forbidden": ["2.5 mm"]}
+{"id": "t006", "role": "operator", "type": "numeric", "question": "Within how many minutes do I have to fit the cover after applying sealant?", "gold": ["WI-ASM-014:5"], "facts": ["10 minutes"], "forbidden": ["15 minutes"]}
+{"id": "t007", "role": "operator", "type": "numeric", "question": "How long does the sealant need to cure before the leak test?", "gold": ["WI-ASM-014:5", "WI-PNT-005:2"], "facts": ["30 minutes"], "forbidden": ["20 minutes"]}
+{"id": "t008", "role": "operator", "type": "procedural", "question": "In how many stages are the cover bolts tightened and at what percentage?", "gold": ["WI-ASM-014:5"], "facts": ["50 %"]}
+{"id": "t009", "role": "operator", "type": "procedural", "question": "What should I do if the EC screwdriver torque check at shift start is out of tolerance?", "gold": ["WI-ASM-014:5"], "facts": ["do not start production"]}
+{"id": "t010", "role": "operator", "type": "procedural", "question": "What do I do if a bolt cannot be tightened or the cover does not sit flat?", "gold": ["WI-ASM-014:6"], "facts": ["red box"]}
+{"id": "t011", "role": "operator", "type": "factual", "question": "Which gloves do I need when handling the housing cover?", "gold": ["WI-ASM-014:2"], "facts": ["cut-resistant"]}
+{"id": "t012", "role": "operator", "type": "factual", "question": "Which screwdriver program is used at station S4?", "gold": ["WI-ASM-014:3"], "facts": ["P-14"]}
+{"id": "t013", "role": "operator", "type": "factual", "question": "What colour paint pen is used to mark the bolts after tightening?", "gold": ["WI-ASM-014:5"], "facts": ["yellow"]}
+{"id": "t014", "role": "operator", "type": "numeric", "question": "What coolant concentration is required on the MC-500 machines?", "gold": ["WI-MCH-022:3"], "facts": ["6 %", "8 %"]}
+{"id": "t015", "role": "operator", "type": "procedural", "question": "How often do I check the coolant concentration with the refractometer?", "gold": ["WI-MCH-022:3"], "facts": ["twice per shift"]}
+{"id": "t016", "role": "operator", "type": "procedural", "question": "What do I do if the coolant concentration is above 8 percent?", "gold": ["WI-MCH-022:3"], "facts": ["add water"]}
+{"id": "t017", "role": "operator", "type": "numeric", "question": "After how many parts is the finishing insert replaced on the rotor shaft machine?", "gold": ["WI-MCH-022:4"], "facts": ["450"]}
+{"id": "t018", "role": "operator", "type": "table", "question": "What is the tolerance of the bearing seat diameter on the rotor shaft RS-40?", "gold": ["WI-MCH-022:5"], "facts": ["40 k6"]}
+{"id": "t019", "role": "operator", "type": "table", "question": "How often is the bearing seat diameter measured and with which gauge?", "gold": ["WI-MCH-022:5"], "facts": ["25th", "AG-40"]}
+{"id": "t020", "role": "operator", "type": "table", "question": "What is the maximum runout of the rotor shaft?", "gold": ["WI-MCH-022:5"], "facts": ["0.02 mm"]}
+{"id": "t021", "role": "operator", "type": "table", "question": "Overall length specification for RS-40 shafts?", "gold": ["WI-MCH-022:5"], "facts": ["312.0"]}
+{"id": "t022", "role": "operator", "type": "procedural", "question": "What happens if an in-process measurement on the rotor shaft is out of specification?", "gold": ["WI-MCH-022:5"], "facts": ["segregate"]}
+{"id": "t023", "role": "operator", "type": "factual", "question": "Can I remove chips from the machine by hand?", "gold": ["WI-MCH-022:2"], "facts": ["chip hook"]}
+{"id": "t024", "role": "operator", "type": "table", "question": "What is the test pressure on the leak test bench?", "gold": ["WI-PNT-005:4"], "facts": ["500 mbar|0.5 bar"]}
+{"id": "t025", "role": "operator", "type": "table", "question": "What is the reject limit of the gearbox leak test?", "gold": ["WI-PNT-005:4"], "facts": ["2.0 cm3/min"]}
+{"id": "t026", "role": "operator", "type": "table", "question": "How long is the settle time in the leak test?", "gold": ["WI-PNT-005:4"], "facts": ["10 s"]}
+{"id": "t027", "role": "operator", "type": "numeric", "question": "Which leak rate must the master part show at the daily check?", "gold": ["WI-PNT-005:3"], "facts": ["1.3", "1.7"]}
+{"id": "t028", "role": "operator", "type": "procedural", "question": "What do I do when a housing fails the leak test twice?", "gold": ["WI-PNT-005:5"], "facts": ["red tag"]}
+{"id": "t029", "role": "operator", "type": "numeric", "question": "What housing temperature is allowed for the leak test?", "gold": ["WI-PNT-005:2"], "facts": ["15", "35"]}
+{"id": "t030", "role": "operator", "type": "numeric", "question": "What resistance range does the wrist strap tester accept?", "gold": ["WI-ESD-001:3"], "facts": ["0.75", "35"]}
+{"id": "t031", "role": "operator", "type": "numeric", "question": "What relative humidity is required in the EPA?", "gold": ["WI-ESD-001:2"], "facts": ["30 %", "70 %"]}
+{"id": "t032", "role": "operator", "type": "factual", "question": "An inverter board fell on the floor but looks fine. Can I still use it?", "gold": ["WI-ESD-001:4"], "facts": ["scrapped"]}
+{"id": "t033", "role": "operator", "type": "procedural", "question": "What do I do if the wrist strap tester shows FAIL?", "gold": ["WI-ESD-001:3"], "facts": ["new strap"]}
+{"id": "t034", "role": "operator", "type": "table", "question": "How many KLT boxes can be stacked on top of each other?", "gold": ["WI-LOG-009:4"], "facts": ["3 boxes"]}
+{"id": "t035", "role": "operator", "type": "factual", "question": "What is the speed limit for forklifts in the production halls?", "gold": ["WI-LOG-009:5"], "facts": ["6 km/h"]}
+{"id": "t036", "role": "operator", "type": "factual", "question": "Material is older than 6 months. Can I use it at the line?", "gold": ["WI-LOG-009:3"], "facts": ["released again by quality"]}
+{"id": "t037", "role": "operator", "type": "table", "question": "What is the minimum aisle width?", "gold": ["WI-LOG-009:4"], "facts": ["1.2 m"]}
+{"id": "t038", "role": "operator", "type": "factual", "question": "Who is allowed to move material with a red label?", "gold": ["WI-LOG-009:4"], "facts": ["quality"]}
+{"id": "t039", "role": "operator", "type": "procedural", "question": "What are the steps of lockout tagout?", "gold": ["MP-LOTO-002:3"], "facts": ["isolate", "verify zero energy"]}
+{"id": "t040", "role": "operator", "type": "factual", "question": "How often is the LOTO refresher training required?", "gold": ["MP-LOTO-002:2"], "facts": ["12 months"]}
+{"id": "t041", "role": "maintenance", "type": "factual", "question": "When is a group lock box used for lockout?", "gold": ["MP-LOTO-002:5"], "facts": ["more than 3 persons"]}
+{"id": "t042", "role": "maintenance", "type": "factual", "question": "Somebody forgot to remove their padlock and has left the site. Who may remove it?", "gold": ["MP-LOTO-002:4"], "facts": ["maintenance manager"]}
+{"id": "t043", "role": "operator", "type": "procedural", "question": "What do I do with a nonconforming part I found?", "gold": ["QM-NCR-001:2"], "facts": ["red tag"]}
+{"id": "t044", "role": "operator", "type": "factual", "question": "Who decides whether a nonconforming part can be used as is?", "gold": ["QM-NCR-001:4"], "facts": ["quality and engineering"]}
+{"id": "t045", "role": "quality", "type": "factual", "question": "When does a nonconformity escalate to an 8D?", "gold": ["QM-NCR-001:5"], "facts": ["3 times within one week"]}
+{"id": "t046", "role": "operator", "type": "table", "question": "What PPE do I need for cleaning agent C-1?", "gold": ["HSE-POL-003:3"], "facts": ["nitrile gloves", "ventilation"]}
+{"id": "t047", "role": "operator", "type": "procedural", "question": "What do I do if a large amount of oil gets into a drain?", "gold": ["HSE-POL-003:5"], "facts": ["112"]}
+{"id": "t048", "role": "operator", "type": "factual", "question": "Where are safety data sheets available?", "gold": ["HSE-POL-003:2"], "facts": ["HSE portal"]}
+{"id": "t049", "role": "operator", "type": "factual", "question": "How much hazardous substance may be kept at the workplace?", "gold": ["HSE-POL-003:4"], "facts": ["one shift"]}
+{"id": "t050", "role": "operator", "type": "table", "question": "What is the upper exposure action value for noise?", "gold": ["HSE-POL-007:2"], "facts": ["85 dB(A)"]}
+{"id": "t051", "role": "operator", "type": "table", "question": "What is the noise exposure limit value?", "gold": ["HSE-POL-007:2"], "facts": ["87 dB(A)"]}
+{"id": "t052", "role": "operator", "type": "table", "question": "How loud is it in the compressor room?", "gold": ["HSE-POL-007:4"], "facts": ["91 dB(A)"]}
+{"id": "t053", "role": "operator", "type": "factual", "question": "When is wearing hearing protection mandatory?", "gold": ["HSE-POL-007:3"], "facts": ["85 dB(A)"]}
+{"id": "t054", "role": "operator", "type": "factual", "question": "Who can get personal moulded ear plugs?", "gold": ["HSE-POL-007:5"], "facts": ["2 hours"]}
+{"id": "t055", "role": "engineering", "type": "factual", "question": "From when does the Machinery Regulation (EU) 2023/1230 apply?", "gold": ["REG-SUM-001:2"], "facts": ["20 January 2027"]}
+{"id": "t056", "role": "engineering", "type": "factual", "question": "What does REACH require from us regarding SVHC?", "gold": ["REG-SUM-001:3"], "facts": ["0.1 %"]}
+{"id": "t057", "role": "quality", "type": "factual", "question": "Which automotive quality management standard are we certified to?", "gold": ["REG-SUM-001:5"], "facts": ["IATF 16949"]}
+{"id": "t058", "role": "engineering", "type": "factual", "question": "Does RoHS apply to our e-drives?", "gold": ["REG-SUM-001:3"], "facts": ["Not directly applicable"]}
+{"id": "t059", "role": "maintenance", "type": "factual", "question": "Who is responsible for the regular inspection of work equipment under BetrSichV?", "gold": ["REG-SUM-001:2"], "facts": ["Maintenance"]}
+{"id": "t060", "role": "maintenance", "type": "table", "question": "How often is the hydraulic oil changed on the MC-500?", "gold": ["MM-CNC-003:2"], "facts": ["4000"]}
+{"id": "t061", "role": "maintenance", "type": "numeric", "question": "What is the nominal clamping force of the spindle drawbar?", "gold": ["MM-CNC-003:3"], "facts": ["18 kN"]}
+{"id": "t062", "role": "maintenance", "type": "numeric", "question": "Below which clamping force do the disc springs have to be replaced?", "gold": ["MM-CNC-003:3"], "facts": ["15 kN"]}
+{"id": "t063", "role": "maintenance", "type": "factual", "question": "Which program is the spindle warm-up and how long does it run?", "gold": ["MM-CNC-003:4"], "facts": ["O9001", "10 minutes"]}
+{"id": "t064", "role": "maintenance", "type": "numeric", "question": "What circularity is allowed in the ballbar test?", "gold": ["MM-CNC-003:5"], "facts": ["12 um"]}
+{"id": "t065", "role": "maintenance", "type": "table", "question": "What is the order number of the drawbar disc spring set?", "gold": ["MM-CNC-003:6"], "facts": ["MC5-SP-118"]}
+{"id": "t066", "role": "maintenance", "type": "table", "question": "How often is the coolant replaced completely on the machining centres?", "gold": ["MM-CNC-003:2"], "facts": ["3 months"]}
+{"id": "t067", "role": "maintenance", "type": "table", "question": "What is the target network pressure of the compressed air system?", "gold": ["MM-CMP-011:2"], "facts": ["6.5 bar"]}
+{"id": "t068", "role": "maintenance", "type": "factual", "question": "How quickly must a class A compressed air leak be repaired?", "gold": ["MM-CMP-011:4"], "facts": ["1 week"]}
+{"id": "t069", "role": "maintenance", "type": "table", "question": "When is the oil separator cartridge of the compressor replaced?", "gold": ["MM-CMP-011:3"], "facts": ["4000"]}
+{"id": "t070", "role": "maintenance", "type": "factual", "question": "How much power does a 3 mm air leak waste?", "gold": ["MM-CMP-011:4"], "facts": ["3 kW"]}
+{"id": "t071", "role": "maintenance", "type": "table", "question": "What does alarm E-102 on the dispensing cell mean and what do I do?", "gold": ["TS-ROB-004:2"], "facts": ["Nozzle blocked"]}
+{"id": "t072", "role": "maintenance", "type": "table", "question": "Dispensing cell shows E-205, what is the likely cause?", "gold": ["TS-ROB-004:2"], "facts": ["Air bubble"]}
+{"id": "t073", "role": "maintenance", "type": "table", "question": "What robot speed should the dispensing robot have when the bead is too wide?", "gold": ["TS-ROB-004:2"], "facts": ["120 mm/s"]}
+{"id": "t074", "role": "maintenance", "type": "procedural", "question": "How do I vent the dosing pump of cell D2?", "gold": ["TS-ROB-004:3"], "facts": ["PURGE", "20 s"]}
+{"id": "t075", "role": "maintenance", "type": "factual", "question": "When do I open a maintenance ticket for repeated alarms on cell D2?", "gold": ["TS-ROB-004:4"], "facts": ["more than 3 times"]}
+{"id": "t076", "role": "maintenance", "type": "table", "question": "Can I bridge the safety door switch on the dispensing cell when it gives E-412?", "gold": ["TS-ROB-004:2"], "facts": ["never bridge"]}
+{"id": "t077", "role": "quality", "type": "table", "question": "What voltage is used for the insulation resistance test at EOL and what is the limit?", "gold": ["TS-EOL-012:2"], "facts": ["1000 V DC", "100 megohm"]}
+{"id": "t078", "role": "quality", "type": "table", "question": "What hipot voltage is used at the end-of-line test?", "gold": ["TS-EOL-012:2"], "facts": ["2500 V AC"]}
+{"id": "t079", "role": "engineering", "type": "factual", "question": "Can a unit that failed the insulation test be retested immediately?", "gold": ["TS-EOL-012:4"], "facts": ["must not be retested"]}
+{"id": "t080", "role": "quality", "type": "factual", "question": "How long are EOL test results stored?", "gold": ["TS-EOL-012:5"], "facts": ["15 years"]}
+{"id": "t081", "role": "maintenance", "type": "table", "question": "What is the maximum protective earth resistance at EOL?", "gold": ["TS-EOL-012:2"], "facts": ["100 milliohm"]}
+{"id": "t082", "role": "engineering", "type": "factual", "question": "Can bolts with microencapsulated threadlocker be reused?", "gold": ["ES-TOR-001:4"], "facts": ["never be reused"]}
+{"id": "t083", "role": "engineering", "type": "factual", "question": "What Cmk do production torque tools need?", "gold": ["ES-TOR-001:5"], "facts": ["1.67"]}
+{"id": "t084", "role": "quality", "type": "table", "question": "Which tightening method is required for class A joints?", "gold": ["ES-TOR-001:2"], "facts": ["Torque-angle"]}
+{"id": "t085", "role": "engineering", "type": "factual", "question": "What is the default torque tolerance for class B joints?", "gold": ["ES-TOR-001:3"], "facts": ["10 %"]}
+{"id": "t086", "role": "engineering", "type": "factual", "question": "Why was the gearbox flange torque changed in ECN-2026-044?", "gold": ["ECN-2026-044:1"], "facts": ["clamping force"]}
+{"id": "t087", "role": "engineering", "type": "factual", "question": "From which serial number is ECN-2026-044 effective?", "gold": ["ECN-2026-044:5"], "facts": ["ED210-2606-00001"]}
+{"id": "t088", "role": "quality", "type": "factual", "question": "How was the 45 Nm torque validated?", "gold": ["ECN-2026-044:3"], "facts": ["VDI 2230"]}
+{"id": "t089", "role": "engineering", "type": "factual", "question": "When did the customer approve the flange joint change?", "gold": ["ECN-2026-044:6"], "facts": ["2026-05-29"]}
+{"id": "t090", "role": "quality", "type": "factual", "question": "What was the root cause of the oil leakage complaint on the gearbox flange?", "gold": ["QR-8D-2026-017:D4"], "facts": ["air in the dosing line|sealant bead had interruptions"]}
+{"id": "t091", "role": "quality", "type": "factual", "question": "How many units did the customer find leaking in the 8D oil leakage case?", "gold": ["QR-8D-2026-017:D2"], "facts": ["7"]}
+{"id": "t092", "role": "engineering", "type": "factual", "question": "What did the oil leakage complaint cost in total?", "gold": ["QR-8D-2026-017:D8"], "facts": ["86,400 EUR"]}
+{"id": "t093", "role": "quality", "type": "factual", "question": "Which containment actions were taken for the flange leakage complaint?", "gold": ["QR-8D-2026-017:D3"], "facts": ["1,412|helium"]}
+{"id": "t094", "role": "quality", "type": "factual", "question": "Why did our leak test not detect the leaking units?", "gold": ["QR-8D-2026-017:D4"], "facts": ["20 minutes"]}
+{"id": "t095", "role": "quality", "type": "factual", "question": "Why were the rotor shaft bearing seats on MC-504 out of tolerance?", "gold": ["QR-8D-2026-021:D4"], "facts": ["warm-up"]}
+{"id": "t096", "role": "maintenance", "type": "factual", "question": "When is the warm-up interlock for MC-500 due?", "gold": ["QR-8D-2026-021:D5"], "facts": ["2026-11-15"]}
+{"id": "t097", "role": "quality", "type": "factual", "question": "How many rotor shafts were scrapped in 8D-2026-021?", "gold": ["QR-8D-2026-021:D3"], "facts": ["38"]}
+{"id": "t098", "role": "quality", "type": "factual", "question": "What overall result did Kessler Gusstechnik get in the supplier audit?", "gold": ["QR-AUD-2026-03:2"], "facts": ["78 %"]}
+{"id": "t099", "role": "quality", "type": "factual", "question": "What happens if Kessler scores below 80 % in the follow-up audit?", "gold": ["QR-AUD-2026-03:4"], "facts": ["new business hold"]}
+{"id": "t100", "role": "quality", "type": "factual", "question": "Which gauges were overdue for calibration at the casting supplier?", "gold": ["QR-AUD-2026-03:3"], "facts": ["flatness"]}
+{"id": "t101", "role": "quality", "type": "table", "question": "Which sampling plan is used for normal incoming inspection?", "gold": ["QP-INS-007:2"], "facts": ["AQL 0.65"]}
+{"id": "t102", "role": "quality", "type": "factual", "question": "Can safety-relevant parts be on skip lot inspection?", "gold": ["QP-INS-007:2"], "facts": ["never on skip lot"]}
+{"id": "t103", "role": "engineering", "type": "factual", "question": "Which material certificate is required for a first article inspection?", "gold": ["QP-INS-007:3"], "facts": ["3.1"]}
+{"id": "t104", "role": "quality", "type": "factual", "question": "How many points does a supplier need for an A rating?", "gold": ["QP-INS-007:5"], "facts": ["90 points"]}
+{"id": "t105", "role": "quality", "type": "table", "question": "What was the internal scrap rate in September 2026?", "gold": ["QR-MON-2026-09:2"], "facts": ["1.4 %"]}
+{"id": "t106", "role": "engineering", "type": "table", "question": "What was the first pass yield at the EOL test in September?", "gold": ["QR-MON-2026-09:2"], "facts": ["98.1 %"]}
+{"id": "t107", "role": "quality", "type": "factual", "question": "What caused the insulation resistance failures in September?", "gold": ["QR-MON-2026-09:4"], "facts": ["moisture"]}
+{"id": "t108", "role": "admin", "type": "factual", "question": "How many e-drive units were produced in Q3 2026?", "gold": ["MGT-REV-2026-Q3:2"], "facts": ["41,850"]}
+{"id": "t109", "role": "admin", "type": "factual", "question": "What budget was approved for the second source of housing castings?", "gold": ["MGT-REV-2026-Q3:3"], "facts": ["180,000 EUR"]}
+{"id": "t110", "role": "admin", "type": "factual", "question": "When is the start of production of line L3 for the ED-260?", "gold": ["MGT-REV-2026-Q3:3"], "facts": ["2027-05"]}
+{"id": "t111", "role": "admin", "type": "factual", "question": "What was the cost of poor quality in Q3?", "gold": ["MGT-REV-2026-Q3:2"], "facts": ["312,000 EUR"]}
+{"id": "t112", "role": "quality", "type": "cross_doc", "question": "Which documents were changed by the engineering change for the flange joint?", "gold": ["ECN-2026-044:4"], "facts": ["WI-ASM-014", "WI-PNT-005"]}
+{"id": "t113", "role": "engineering", "type": "cross_doc", "question": "Which 8D report led to the change of the flange torque to 45 Nm?", "gold": ["ECN-2026-044:1", "WI-ASM-014:8"], "facts": ["8D-2026-017"]}
+{"id": "t114", "role": "maintenance", "type": "cross_doc", "question": "What must be done before working inside the MC-500 machine?", "gold": ["MM-CNC-003:1"], "facts": ["MP-LOTO-002|locked out"]}
+{"id": "t115", "role": "operator", "type": "cross_doc", "question": "After a weekend standstill, what has to be done on the MC-500 before production?", "gold": ["WI-MCH-022:6", "MM-CNC-003:4"], "facts": ["warm-up"]}
+{"id": "t116", "role": "operator", "type": "version", "question": "Is the M10 flange torque still 40 Nm?", "gold": ["WI-ASM-014:4"], "facts": ["45 Nm"]}
+{"id": "t117", "role": "operator", "type": "version", "question": "What was the flange bolt torque in revision B of WI-ASM-014?", "gold": ["WI-ASM-014@B:3"], "facts": ["40 Nm"]}
+{"id": "t118", "role": "operator", "type": "version", "question": "What sealant bead width was used before the change?", "gold": ["WI-ASM-014@B:4", "ECN-2026-044:2", "WI-ASM-014:8"], "facts": ["2.5 mm"]}
+{"id": "t119", "role": "operator", "type": "version", "question": "How long does the sealant have to cure before leak testing the housing?", "gold": ["WI-PNT-005:2", "WI-ASM-014:5"], "facts": ["30 minutes"], "forbidden": ["20 minutes"]}
+{"id": "t120", "role": "operator", "type": "restricted", "question": "What was the root cause of the oil leakage customer complaint?", "gold": ["QR-8D-2026-017"], "answerable": false}
+{"id": "t121", "role": "operator", "type": "restricted", "question": "What did the customer complaint about leaking flanges cost?", "gold": ["QR-8D-2026-017"], "answerable": false}
+{"id": "t122", "role": "maintenance", "type": "restricted", "question": "What was the result of the Kessler Gusstechnik supplier audit?", "gold": ["QR-AUD-2026-03"], "answerable": false}
+{"id": "t123", "role": "engineering", "type": "restricted", "question": "Which process element got 71 % in the supplier audit?", "gold": ["QR-AUD-2026-03"], "answerable": false}
+{"id": "t124", "role": "engineering", "type": "restricted", "question": "What budget was approved for the second source of housing castings?", "gold": ["MGT-REV-2026-Q3"], "answerable": false}
+{"id": "t125", "role": "quality", "type": "restricted", "question": "Is short-time work in machining being discussed?", "gold": ["MGT-REV-2026-Q3"], "answerable": false}
+{"id": "t126", "role": "operator", "type": "restricted", "question": "What is the clamping force of the spindle drawbar?", "gold": ["MM-CNC-003"], "answerable": false}
+{"id": "t127", "role": "operator", "type": "restricted", "question": "What was the internal scrap rate in September?", "gold": ["QR-MON-2026-09"], "answerable": false}
+{"id": "t128", "role": "maintenance", "type": "restricted", "question": "When is the next management review?", "gold": ["MGT-REV-2026-Q3"], "answerable": false}
+{"id": "t129", "role": "operator", "type": "restricted", "question": "What is the hipot test voltage at EOL?", "gold": ["TS-EOL-012"], "answerable": false}
+{"id": "t130", "role": "operator", "type": "unanswerable", "question": "What is on the canteen menu on Friday?", "gold": [], "answerable": false}
+{"id": "t131", "role": "operator", "type": "unanswerable", "question": "How many vacation days do I get per year?", "gold": [], "answerable": false}
+{"id": "t132", "role": "maintenance", "type": "unanswerable", "question": "What is the torque for the M12 subframe mounting bolts?", "gold": [], "answerable": false}
+{"id": "t133", "role": "engineering", "type": "unanswerable", "question": "What is the maximum output power of the ED-210?", "gold": [], "answerable": false}
+{"id": "t134", "role": "quality", "type": "unanswerable", "question": "Who is the quality manager of the Pune plant?", "gold": [], "answerable": false}
+{"id": "t135", "role": "maintenance", "type": "unanswerable", "question": "How often is the welding robot tip dressed?", "gold": [], "answerable": false}
+{"id": "t136", "role": "operator", "type": "unanswerable", "question": "What is the WiFi password for the guest network?", "gold": [], "answerable": false}
+{"id": "t137", "role": "engineering", "type": "unanswerable", "question": "What does the AI Act require for our production systems?", "gold": [], "answerable": false}
+{"id": "t138", "role": "quality", "type": "unanswerable", "question": "What was the customer ppm in March 2026?", "gold": [], "answerable": false}
+{"id": "t139", "role": "maintenance", "type": "unanswerable", "question": "What is the error code E-999 on the dispensing cell?", "gold": [], "answerable": false}
+{"id": "t140", "role": "operator", "type": "unanswerable", "question": "Which parking spaces are reserved for night shift?", "gold": [], "answerable": false}

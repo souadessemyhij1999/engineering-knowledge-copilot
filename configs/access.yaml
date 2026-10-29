@@ -1,0 +1,17 @@
+# Role model. Access rights per document normally come from the DMS export
+# (data/corpus/manifest.json). If a document is uploaded without an entry
+# there, these defaults by classification are used.
+roles:
+  operator: Shop floor operators and shift leaders
+  maintenance: Maintenance technicians
+  quality: Quality engineers and inspectors
+  engineering: Product, process and test engineers
+  admin: Plant management, sees everything
+
+superuser_roles: [admin]
+
+default_roles_by_classification:
+  public: [operator, maintenance, quality, engineering]
+  internal: [operator, maintenance, quality, engineering]
+  confidential: [quality, engineering]
+  restricted: []

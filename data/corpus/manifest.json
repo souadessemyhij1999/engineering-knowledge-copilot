@@ -1,0 +1,256 @@
+[
+  {
+    "file": "ECN-2026-044_RevA.pdf",
+    "doc_no": "ECN-2026-044",
+    "revision": "A",
+    "roles": [
+      "quality",
+      "engineering",
+      "maintenance"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "ES-TOR-001_RevD.pdf",
+    "doc_no": "ES-TOR-001",
+    "revision": "D",
+    "roles": [
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "HSE-POL-003_RevB.pdf",
+    "doc_no": "HSE-POL-003",
+    "revision": "B",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "HSE-POL-007_RevA.pdf",
+    "doc_no": "HSE-POL-007",
+    "revision": "A",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "MGT-REV-2026-Q3_RevA.pdf",
+    "doc_no": "MGT-REV-2026-Q3",
+    "revision": "A",
+    "roles": [
+      "admin"
+    ],
+    "classification": "restricted"
+  },
+  {
+    "file": "MM-CMP-011_RevA.pdf",
+    "doc_no": "MM-CMP-011",
+    "revision": "A",
+    "roles": [
+      "maintenance",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "MM-CNC-003_RevB.pdf",
+    "doc_no": "MM-CNC-003",
+    "revision": "B",
+    "roles": [
+      "maintenance",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "MP-LOTO-002_RevC.pdf",
+    "doc_no": "MP-LOTO-002",
+    "revision": "C",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "QM-NCR-001_RevB.pdf",
+    "doc_no": "QM-NCR-001",
+    "revision": "B",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "QP-INS-007_RevC.pdf",
+    "doc_no": "QP-INS-007",
+    "revision": "C",
+    "roles": [
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "QR-8D-2026-017_RevA.pdf",
+    "doc_no": "QR-8D-2026-017",
+    "revision": "A",
+    "roles": [
+      "quality",
+      "engineering"
+    ],
+    "classification": "confidential"
+  },
+  {
+    "file": "QR-8D-2026-021_RevA.pdf",
+    "doc_no": "QR-8D-2026-021",
+    "revision": "A",
+    "roles": [
+      "quality",
+      "engineering",
+      "maintenance"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "QR-AUD-2026-03_RevA.pdf",
+    "doc_no": "QR-AUD-2026-03",
+    "revision": "A",
+    "roles": [
+      "quality"
+    ],
+    "classification": "confidential"
+  },
+  {
+    "file": "QR-MON-2026-09_RevA.pdf",
+    "doc_no": "QR-MON-2026-09",
+    "revision": "A",
+    "roles": [
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "REG-SUM-001_RevE.pdf",
+    "doc_no": "REG-SUM-001",
+    "revision": "E",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "TS-EOL-012_RevB.pdf",
+    "doc_no": "TS-EOL-012",
+    "revision": "B",
+    "roles": [
+      "quality",
+      "engineering",
+      "maintenance"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "TS-ROB-004_RevB.pdf",
+    "doc_no": "TS-ROB-004",
+    "revision": "B",
+    "roles": [
+      "maintenance",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-ASM-014_RevB.pdf",
+    "doc_no": "WI-ASM-014",
+    "revision": "B",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-ASM-014_RevC.pdf",
+    "doc_no": "WI-ASM-014",
+    "revision": "C",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-ESD-001_RevB.pdf",
+    "doc_no": "WI-ESD-001",
+    "revision": "B",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-LOG-009_RevA.pdf",
+    "doc_no": "WI-LOG-009",
+    "revision": "A",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-MCH-022_RevA.pdf",
+    "doc_no": "WI-MCH-022",
+    "revision": "A",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  },
+  {
+    "file": "WI-PNT-005_RevD.pdf",
+    "doc_no": "WI-PNT-005",
+    "revision": "D",
+    "roles": [
+      "operator",
+      "maintenance",
+      "quality",
+      "engineering"
+    ],
+    "classification": "internal"
+  }
+]

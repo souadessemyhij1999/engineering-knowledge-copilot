@@ -1,0 +1,10 @@
+.venv
+.git
+.qdrant
+*.db
+notebooks
+reports
+assets
+tests
+data/source
+__pycache__

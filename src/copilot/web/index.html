@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engineering Knowledge Copilot</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark">EK</span> Engineering Knowledge Copilot <small>Nordwerk Drive Systems (demo)</small></div>
+  <div class="who" id="who"></div>
+</header>
+
+<section id="login" class="login">
+  <h1>Sign in</h1>
+  <p class="muted">Demo users, password <code>demo</code>. Each role sees different documents.</p>
+  <div id="users" class="users"></div>
+</section>
+
+<main id="app" class="hidden">
+  <nav class="tabs">
+    <button class="tab active" data-tab="ask">Ask</button>
+    <button class="tab" data-tab="docs">My documents</button>
+  </nav>
+
+  <section id="tab-ask">
+    <form id="ask-form" class="ask">
+      <input id="q" autocomplete="off" placeholder="e.g. What torque for the M10 flange bolts?" maxlength="1000">
+      <select id="mode" title="Answer mode">
+        <option value="extractive">Extractive (no LLM)</option>
+        <option value="llm">LLM (Claude)</option>
+      </select>
+      <button type="submit">Ask</button>
+    </form>
+    <div id="examples" class="examples"></div>
+    <div id="result"></div>
+  </section>
+
+  <section id="tab-docs" class="hidden">
+    <table class="docs"><thead><tr><th>Document</th><th>Rev</th><th>Title</th><th>Type</th><th>Status</th><th>Effective</th></tr></thead>
+    <tbody id="docs"></tbody></table>
+  </section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

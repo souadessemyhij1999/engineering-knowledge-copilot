@@ -1,0 +1,19 @@
+# Demo users for the web UI. All demo passwords are "demo".
+# In a real plant this would be replaced by SSO / Entra ID groups.
+users:
+  - username: olga.operator
+    full_name: Olga (Operator, line L2)
+    role: operator
+  - username: max.maintenance
+    full_name: Max (Maintenance)
+    role: maintenance
+  - username: quinn.quality
+    full_name: Quinn (Quality Engineering)
+    role: quality
+  - username: emre.engineer
+    full_name: Emre (Process Engineering)
+    role: engineering
+  - username: ada.admin
+    full_name: Ada (Plant Management)
+    role: admin
+demo_password: demo

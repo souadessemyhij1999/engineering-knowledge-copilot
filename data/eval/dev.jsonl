@@ -1,0 +1,48 @@
+{"id": "d01", "role": "operator", "type": "table", "question": "Which nozzle size does the dispenser D2 use?", "gold": ["WI-ASM-014:3"], "facts": ["1.2 mm"]}
+{"id": "d02", "role": "operator", "type": "procedural", "question": "What do I do if the vision check shows an interruption in the bead?", "gold": ["WI-ASM-014:5"], "facts": ["remove the sealant"]}
+{"id": "d03", "role": "operator", "type": "table", "question": "How long is the fill time on leak test bench LT-2?", "gold": ["WI-PNT-005:4"], "facts": ["5 s"]}
+{"id": "d04", "role": "operator", "type": "factual", "question": "What safety resistor is built into the wrist strap?", "gold": ["WI-ESD-001:3"], "facts": ["1 megohm"]}
+{"id": "d05", "role": "operator", "type": "factual", "question": "Where are boxes loaded in the flow rack?", "gold": ["WI-LOG-009:3"], "facts": ["back"]}
+{"id": "d06", "role": "operator", "type": "factual", "question": "What colour are the personal LOTO padlocks?", "gold": ["MP-LOTO-002:2"], "facts": ["red"]}
+{"id": "d07", "role": "operator", "type": "table", "question": "What PPE is needed for sealant S-2?", "gold": ["HSE-POL-003:3"], "facts": ["nitrile gloves"]}
+{"id": "d08", "role": "operator", "type": "table", "question": "What is the noise level in hall 3 machining?", "gold": ["HSE-POL-007:4"], "facts": ["84 dB(A)"]}
+{"id": "d09", "role": "maintenance", "type": "table", "question": "Which hydraulic oil is used in the MC-500?", "gold": ["MM-CNC-003:2"], "facts": ["HLP 46"]}
+{"id": "d10", "role": "maintenance", "type": "table", "question": "What pressure dew point should the dryer reach?", "gold": ["MM-CMP-011:2"], "facts": ["+3"]}
+{"id": "d11", "role": "maintenance", "type": "table", "question": "Alarm E-310 on the dispensing robot, what should I check?", "gold": ["TS-ROB-004:2"], "facts": ["fixture pins"]}
+{"id": "d12", "role": "quality", "type": "table", "question": "What is the limit for the resolver offset at EOL?", "gold": ["TS-EOL-012:3"], "facts": ["0.5 degrees"]}
+{"id": "d13", "role": "engineering", "type": "factual", "question": "How often may normal bolts be reused?", "gold": ["ES-TOR-001:4"], "facts": ["2 times"]}
+{"id": "d14", "role": "engineering", "type": "factual", "question": "Do units built with 40 Nm before the ECN have to be reworked?", "gold": ["ECN-2026-044:5"], "facts": ["do not need to be reworked"]}
+{"id": "d15", "role": "quality", "type": "factual", "question": "How was the FMEA occurrence rating for bead interrupted changed?", "gold": ["QR-8D-2026-017:D7"], "facts": ["6", "3"]}
+{"id": "d16", "role": "quality", "type": "factual", "question": "What is the incoming inspection for GH-210 castings until the follow-up audit?", "gold": ["QR-AUD-2026-03:4"], "facts": ["5 parts"]}
+{"id": "d17", "role": "quality", "type": "table", "question": "What was the supplier ppm in September?", "gold": ["QR-MON-2026-09:2"], "facts": ["165"]}
+{"id": "d18", "role": "engineering", "type": "factual", "question": "Until when does the Machinery Directive 2006/42/EC apply?", "gold": ["REG-SUM-001:2"], "facts": ["19 January 2027"]}
+{"id": "d19", "role": "operator", "type": "version", "question": "What was the open time for the sealant in the old revision?", "gold": ["WI-ASM-014@B:4", "WI-ASM-014:8", "ECN-2026-044:2"], "facts": ["15"]}
+{"id": "d20", "role": "operator", "type": "restricted", "question": "Which supplier had porosity problems in housing castings?", "gold": ["QR-MON-2026-09", "QR-AUD-2026-03"], "answerable": false}
+{"id": "d21", "role": "maintenance", "type": "restricted", "question": "What did the 8D oil leakage complaint cost?", "gold": ["QR-8D-2026-017"], "answerable": false}
+{"id": "d22", "role": "operator", "type": "restricted", "question": "What is the order number of the coolant filter cartridge?", "gold": ["MM-CNC-003"], "answerable": false}
+{"id": "d23", "role": "operator", "type": "unanswerable", "question": "When are the summer holidays this year?", "gold": [], "answerable": false}
+{"id": "d24", "role": "maintenance", "type": "unanswerable", "question": "What is the torque for the M16 crane hook bolts?", "gold": [], "answerable": false}
+{"id": "d25", "role": "engineering", "type": "unanswerable", "question": "What is the efficiency of the inverter at full load?", "gold": [], "answerable": false}
+{"id": "d26", "role": "quality", "type": "unanswerable", "question": "How many complaints did the Brno plant have last year?", "gold": [], "answerable": false}
+{"id": "d27", "role": "operator", "type": "unanswerable", "question": "How do I book a meeting room?", "gold": [], "answerable": false}
+{"id": "d28", "role": "maintenance", "type": "unanswerable", "question": "What grease is used for the conveyor chain in hall 1?", "gold": [], "answerable": false}
+{"id": "d29", "role": "operator", "type": "factual", "question": "What cleaning agent is used for the flange surfaces?", "gold": ["WI-ASM-014:5"], "facts": ["C-1"]}
+{"id": "d30", "role": "operator", "type": "factual", "question": "Which safety glasses rule applies in hall 3?", "gold": ["WI-MCH-022:2"], "facts": ["at all times"]}
+{"id": "d31", "role": "operator", "type": "factual", "question": "What do I do with a box that has no readable label?", "gold": ["WI-LOG-009:2"], "facts": ["logistics office"]}
+{"id": "d32", "role": "operator", "type": "factual", "question": "How do I hold an inverter board?", "gold": ["WI-ESD-001:4"], "facts": ["edges"]}
+{"id": "d33", "role": "operator", "type": "factual", "question": "What must be on every LOTO tag?", "gold": ["MP-LOTO-002:3"], "facts": ["name"]}
+{"id": "d34", "role": "operator", "type": "factual", "question": "Which cream do I use before work with coolant?", "gold": ["HSE-POL-003:6"], "facts": ["protective cream"]}
+{"id": "d35", "role": "maintenance", "type": "factual", "question": "How are compressed air leaks marked during the leak round?", "gold": ["MM-CMP-011:4"], "facts": ["yellow tag"]}
+{"id": "d36", "role": "maintenance", "type": "table", "question": "What is the minimum stock of way lube oil?", "gold": ["MM-CNC-003:6"], "facts": ["4"]}
+{"id": "d37", "role": "quality", "type": "factual", "question": "Within how many hours is a supplier informed about a rejected lot?", "gold": ["QP-INS-007:4"], "facts": ["24 hours"]}
+{"id": "d38", "role": "quality", "type": "factual", "question": "When is the follow-up audit at the casting supplier planned?", "gold": ["QR-AUD-2026-03:4"], "facts": ["November 2026"]}
+{"id": "d39", "role": "engineering", "type": "factual", "question": "Which bolt strength class is used for the flange?", "gold": ["ECN-2026-044:3"], "facts": ["10.9"]}
+{"id": "d40", "role": "admin", "type": "factual", "question": "When is the next management review?", "gold": ["MGT-REV-2026-Q3:5"], "facts": ["2027-01-18"]}
+{"id": "d41", "role": "operator", "type": "unanswerable", "question": "Who is my shift leader next week?", "gold": [], "answerable": false}
+{"id": "d42", "role": "maintenance", "type": "unanswerable", "question": "What is the service phone number of the robot supplier?", "gold": [], "answerable": false}
+{"id": "d43", "role": "quality", "type": "unanswerable", "question": "What is the Cpk of the bearing seat diameter?", "gold": [], "answerable": false}
+{"id": "d44", "role": "engineering", "type": "unanswerable", "question": "Which gear ratio does the ED-150 have?", "gold": [], "answerable": false}
+{"id": "d45", "role": "operator", "type": "unanswerable", "question": "How do I request overtime pay?", "gold": [], "answerable": false}
+{"id": "d46", "role": "maintenance", "type": "unanswerable", "question": "What is the torque for the robot base bolts in cell D2?", "gold": [], "answerable": false}
+{"id": "d47", "role": "operator", "type": "restricted", "question": "Which units did the customer reject in April 2026?", "gold": ["QR-8D-2026-017"], "answerable": false}
+{"id": "d48", "role": "maintenance", "type": "restricted", "question": "How many points did Kessler get for P6.2?", "gold": ["QR-AUD-2026-03"], "answerable": false}

@@ -1,0 +1,57 @@
+# Default settings. Every value can be overridden with an environment
+# variable: COPILOT_<SECTION>_<KEY>, e.g. COPILOT_QDRANT_URL=http://qdrant:6333
+app:
+  name: Engineering Knowledge Copilot
+  corpus_dir: data/corpus
+  manifest: data/corpus/manifest.json
+  users_file: configs/users.yaml
+  access_file: configs/access.yaml
+  auto_ingest: true     # ingest corpus_dir on start-up when the vector store is empty
+
+qdrant:
+  # "url" wins if set. Otherwise "path" is used (embedded mode, no server).
+  # path ":memory:" keeps everything in RAM, which the tests use.
+  url: ""
+  path: .qdrant
+  collection: engineering_docs
+
+database:
+  # Postgres in Docker, SQLite for local runs and tests.
+  url: sqlite:///copilot.db
+
+chunking:
+  max_chars: 1100
+  overlap_chars: 150
+
+retrieval:
+  candidates: 30        # per retriever before fusion
+  rerank_top_n: 30      # fused candidates passed to the reranker
+  top_k: 5              # chunks handed to the answer step
+  current_only: true    # hide superseded revisions unless the question asks for them
+
+bm25:
+  k1: 1.2
+  b: 0.75
+  avg_doc_len: 110
+
+rerank:
+  enabled: true
+  w_maxsim: 1.0
+  w_exact: 0.6          # exact match of codes and numbers from the question
+  w_fusion: 0.15
+  w_title: 0.25
+
+answer:
+  mode: extractive      # extractive | llm
+  min_score: 0.80       # below this answerability score the copilot says it does not know (picked on dev.jsonl)
+  max_sentences: 3
+  margin: 0.4           # extra sentences are kept if they score within this of the best one (dev.jsonl)
+  llm_min_score: 0.60   # looser gate in LLM mode, the model itself can still answer NOT_FOUND
+  llm_model: claude-haiku-5-5
+  llm_temperature: 0.0
+  llm_max_tokens: 500
+  fallback_on_guard_fail: true
+
+auth:
+  jwt_secret: change-me-in-production-use-a-long-random-value
+  token_minutes: 480
