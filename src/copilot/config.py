@@ -7,7 +7,20 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+
+def _find_root() -> Path:
+    """Project root with configs/ and data/. From a source checkout that is
+    two levels above this file; for an installed package (Docker) it is
+    COPILOT_ROOT or the working directory."""
+    if os.environ.get("COPILOT_ROOT"):
+        return Path(os.environ["COPILOT_ROOT"]).resolve()
+    src_root = Path(__file__).resolve().parents[2]
+    if (src_root / "configs").is_dir():
+        return src_root
+    return Path.cwd()
+
+
+ROOT = _find_root()
 
 
 def _coerce(value: str, like: Any) -> Any:

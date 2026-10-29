@@ -30,7 +30,11 @@ jobs:
       - name: wait for the API
         run: |
           for i in $(seq 1 60); do curl -sf localhost:8000/health && exit 0; sleep 3; done
-          docker compose logs api; exit 1
+          docker compose ps
+          docker compose logs api
+          # last log lines as an annotation, so they show up on the run summary page
+          echo "::error title=api logs::$(docker compose logs --no-color --tail 25 api | sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g')"
+          exit 1
       - name: smoke test against Qdrant + Postgres
         run: |
           TOKEN=$(curl -s -X POST localhost:8000/auth/token -d "username=olga.operator&password=demo" | python3 -c "import sys,json;print(json.load(sys.stdin)['access_token'])")

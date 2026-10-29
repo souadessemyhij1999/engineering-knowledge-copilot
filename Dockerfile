@@ -16,7 +16,7 @@ COPY data/corpus ./data/corpus
 RUN useradd --create-home copilot && chown -R copilot /app
 USER copilot
 
-ENV COPILOT_SETTINGS=/app/configs/settings.yaml
+ENV COPILOT_ROOT=/app COPILOT_SETTINGS=/app/configs/settings.yaml
 EXPOSE 8000
 HEALTHCHECK --interval=15s --timeout=5s --start-period=40s --retries=5 \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
